@@ -35,11 +35,7 @@
     <div class="container-fluid container-xl position-relative">
 
       <div class="top-row d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-end">
 
-           <img src="assets/img/logo.jpg" alt="" loading="lazy">
-<!--          <h1 class="sitename">Blogy</h1><span>.</span>-->
-        </a>
 
         <div class="d-flex align-items-center">
           <div class="social-links">
@@ -112,7 +108,7 @@
           <!-- Featured Post (Large) -->
           <article class="blog-item featured" data-aos="fade-up">
             <img src="assets/img/blog/blog-post-3.jpg" alt="Car Rental Service" class="img-fluid" loading="lazy">
-            <div class="blog-content">
+            <div class="blog-content hide-on-mobile">
               <div class="post-meta">
                 <span class="category">Car Rental</span>
               </div>
@@ -123,9 +119,9 @@
           </article><!-- End Featured Post -->
 
           <!-- Regular Posts -->
-          <article class="blog-item" data-aos="fade-up" data-aos-delay="100">
+          <article class="blog-item hide-on-mobile" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/img/blog/blog-post-portrait-1.jpg" alt="Luxury Transfers" class="img-fluid" loading="lazy">
-            <div class="blog-content">
+            <div class="blog-content hide-on-mobile">
               <div class="post-meta">
                 <span class="category">Transfers</span>
               </div>
@@ -135,7 +131,7 @@
             </div>
           </article><!-- End Blog Item -->
 
-          <article class="blog-item" data-aos="fade-up" data-aos-delay="200">
+          <article class="blog-item hide-on-mobile" data-aos="fade-up" data-aos-delay="200">
             <img src="assets/img/misc/misc-2.jpg" alt="Contact Us" class="img-fluid" loading="lazy">
             <div class="blog-content">
 
@@ -145,7 +141,7 @@
             </div>
           </article><!-- End Blog Item -->
 
-          <article class="blog-item" data-aos="fade-up" data-aos-delay="300" >
+          <article class="blog-item hide-on-mobile" data-aos="fade-up" data-aos-delay="300" >
             <img src="assets/img/blog/blog-post-7.jpg" alt="Our Location" class="img-fluid" loading="lazy">
             <div class="blog-content">
               <div class="post-meta">
@@ -157,7 +153,7 @@
             </div>
           </article><!-- End Blog Item -->
 
-          <article class="blog-item" data-aos="fade-up" data-aos-delay="400">
+          <article class="blog-item hide-on-mobile" data-aos="fade-up" data-aos-delay="400">
             <img src="assets/img/blog/blog-post-6.jpg" alt="About Us" class="img-fluid" loading="lazy">
             <div class="blog-content">
               <div class="post-meta">
@@ -179,8 +175,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Cars</h2>
-        <div><span>Check Our</span> <span class="description-title">Best Rent Cars</span></div>
+
+        <div><span>AUTO PARK FOR </span> <span class="description-title">RENT</span></div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -278,13 +274,13 @@
 
     </section><!-- /Featured Posts Section -->
 
-    <!-- Transfer Cars Section -->
+    <!-- Featured Posts Section -->
     <section id="featured-posts" class="featured-posts section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Transfer Cars</h2>
-        <div><span>Под трансфер</span> <span class="description-title">Лучшие автомобили для комфорта</span></div>
+
+        <div><span>AUTO PARK FOR </span> <span class="description-title">TRANSFER</span></div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -297,7 +293,7 @@
               "autoplay": {
                 "delay": 5000
               },
-              "slidesPerView": 2,
+              "slidesPerView": 3,
               "spaceBetween": 30,
               "breakpoints": {
                 "320": {
@@ -309,7 +305,7 @@
                   "spaceBetween": 20
                 },
                 "1200": {
-                  "slidesPerView": 2,
+                  "slidesPerView": 3,
                   "spaceBetween": 30
                 }
               },
@@ -321,28 +317,37 @@
           </script>
 
           <div class="swiper-wrapper">
-            <!-- Mercedes-Benz E 220 -->
             <div class="swiper-slide">
               <div class="blog-post-item">
-                <img src="assets/img/cta/mercers_e_18.jpg" alt="Mercedes-Benz E 220" loading="lazy">
+                <img src="assets/img/cars/mercedes_vito_18.jpg" alt="Renault CLIO" loading="lazy">
                 <div class="blog-post-content">
-                  <h2>Mercedes-Benz E 220</h2>
-                  <p><i class="bi bi-fuel-pump"></i> Diesel | <i class="bi bi-gear-wide-connected"></i> Automatic | <i class="bi bi-person-fill"></i> Seats 5 | 2018</p>
+                  <h2>Mercedes-Benz Vito</h2>
+                  <p><i class="bi bi-fuel-pump"></i> Petrol | <i class="bi bi-gear"></i> Manual | <i class="bi bi-person-fill"></i> Seats 5 |  2021</p>
                 </div>
               </div>
             </div><!-- End slide item -->
 
-            <!-- Renault Scénic -->
             <div class="swiper-slide">
               <div class="blog-post-item">
-                <img src="assets/img/cta/renault_scenic_21.jpg" alt="Renault SCENIC" loading="lazy">
+                <img src="assets/img/cars/mercers_e_18.jpg" alt="Mercedes-Benz E Class" loading="lazy">
                 <div class="blog-post-content">
-                  <h2>Renault SCENIC</h2>
-                  <p><i class="bi bi-fuel-pump"></i> Petrol | <i class="bi bi-gear"></i> Automatic | <i class="bi bi-person-fill"></i> Seats 7</p>
+                  <h2>Mercedes-Benz E Class</h2>
+                  <p><i class="bi bi-fuel-pump"></i> Diesel | <i class="bi bi-gear-wide-connected"></i> Automatic | <i class="bi bi-person-fill"></i> Seats 5 |  2018</p>
                 </div>
               </div>
             </div><!-- End slide item -->
-          </div>
+
+            <div class="swiper-slide">
+              <div class="blog-post-item">
+                <img src="assets/img/cars/renault_scenic_21.jpg" alt="Renault Scenic" loading="lazy">
+                <div class="blog-post-content">
+                  <h2>Renault Scenic</h2>
+                  <p><i class="bi bi-fuel-pump"></i> Petrol | <i class="bi bi-gear"></i> Automatic | <i class="bi bi-person-fill"></i> Seats 7 |  2021</p>
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+
 
           <!-- Swiper Navigation Buttons -->
           <div class="swiper-button-prev" style="color: #cd8936"></div>
@@ -352,7 +357,7 @@
 
       </div>
 
-    </section><!-- /Transfer Cars Section -->
+    </section><!-- /Featured Posts Section -->
 
 
 
@@ -427,173 +432,173 @@
       </div>
     </section><!-- /Call To Action 2 Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+<!--    &lt;!&ndash; About Section &ndash;&gt;-->
+<!--    <section id="about" class="about section">-->
+<!--      <div class="container" data-aos="fade-up" data-aos-delay="100">-->
 
-        <span class="section-badge"><i class="bi bi-info-circle"></i> About Us</span>
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 class="about-title">Gold Rent Car - Your Trusted Partner for Car Rentals & Transfers</h2>
-            <p class="about-description">We offer a diverse fleet of up to 25 rental cars and 2 transfer vehicles to suit all your transportation needs.</p>
-          </div>
-          <div class="col-lg-6">
-            <p class="about-text">Our services are tailored for tourists and locals seeking reliable and comfortable transportation in Greece. Whether you need a car for a vacation or a transfer for business, we’ve got you covered.</p>
-          </div>
-        </div>
+<!--        <span class="section-badge"><i class="bi bi-info-circle"></i> About Us</span>-->
+<!--        <div class="row">-->
+<!--          <div class="col-lg-6">-->
+<!--            <h2 class="about-title">Gold Rent Car - Your Trusted Partner for Car Rentals & Transfers</h2>-->
+<!--            <p class="about-description">We offer a diverse fleet of up to 25 rental cars and 2 transfer vehicles to suit all your transportation needs.</p>-->
+<!--          </div>-->
+<!--          <div class="col-lg-6">-->
+<!--            <p class="about-text">Our services are tailored for tourists and locals seeking reliable and comfortable transportation in Greece. Whether you need a car for a vacation or a transfer for business, we’ve got you covered.</p>-->
+<!--          </div>-->
+<!--        </div>-->
 
-        <div class="row features-boxes gy-4 mt-3">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="feature-box">
-              <div class="icon-box">
-                <i class="bi bi-car-front"></i>
-              </div>
-              <h3><a href="#" class="stretched-link">Car Rental Services</a></h3>
-              <p>Choose from a variety of vehicles to match your needs, whether for a short trip or a long stay.</p>
-            </div>
-          </div>
+<!--        <div class="row features-boxes gy-4 mt-3">-->
+<!--          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">-->
+<!--            <div class="feature-box">-->
+<!--              <div class="icon-box">-->
+<!--                <i class="bi bi-car-front"></i>-->
+<!--              </div>-->
+<!--              <h3><a href="#" class="stretched-link">Car Rental Services</a></h3>-->
+<!--              <p>Choose from a variety of vehicles to match your needs, whether for a short trip or a long stay.</p>-->
+<!--            </div>-->
+<!--          </div>-->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="feature-box">
-              <div class="icon-box">
-                <i class="bi bi-bus-front"></i>
-              </div>
-              <h3><a href="#" class="stretched-link">Transfer Services</a></h3>
-              <p>Private transfers with professional drivers for a hassle-free travel experience.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /About Section -->
+<!--          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">-->
+<!--            <div class="feature-box">-->
+<!--              <div class="icon-box">-->
+<!--                <i class="bi bi-bus-front"></i>-->
+<!--              </div>-->
+<!--              <h3><a href="#" class="stretched-link">Transfer Services</a></h3>-->
+<!--              <p>Private transfers with professional drivers for a hassle-free travel experience.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; /About Section &ndash;&gt;-->
 
-    <!-- Latest Posts Section -->
-    <section id="latest-posts" class="latest-posts section">
+<!--    &lt;!&ndash; Latest Posts Section &ndash;&gt;-->
+<!--    <section id="latest-posts" class="latest-posts section">-->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Explore Places</h2>
-        <div><span>Discover the</span> <span class="description-title">Noteworthy Destinations</span></div>
-      </div><!-- End Section Title -->
+<!--      &lt;!&ndash; Section Title &ndash;&gt;-->
+<!--      <div class="container section-title" data-aos="fade-up">-->
+<!--        <h2>Explore Places</h2>-->
+<!--        <div><span>Discover the</span> <span class="description-title">Noteworthy Destinations</span></div>-->
+<!--      </div>&lt;!&ndash; End Section Title &ndash;&gt;-->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
+<!--      <div class="container" data-aos="fade-up" data-aos-delay="100">-->
+<!--        <div class="row gy-4">-->
 
-          <!-- White Tower of Thessaloniki -->
-          <div class="col-lg-4">
-            <article>
-              <div class="post-img">
-                <img src="https://th.bing.com/th/id/OIP.s5FI2rXGoiIkeimTJgZzgQHaE6?rs=1&pid=ImgDetMain" alt="White Tower of Thessaloniki" class="img-fluid">
-              </div>
-              <p class="post-category">Historical</p>
-              <h2 class="title">
-                <a href="https://www.lpth.gr/indexeg.php">White Tower of Thessaloniki</a>
-              </h2>
+<!--          &lt;!&ndash; White Tower of Thessaloniki &ndash;&gt;-->
+<!--          <div class="col-lg-4">-->
+<!--            <article>-->
+<!--              <div class="post-img">-->
+<!--                <img src="https://th.bing.com/th/id/OIP.s5FI2rXGoiIkeimTJgZzgQHaE6?rs=1&pid=ImgDetMain" alt="White Tower of Thessaloniki" class="img-fluid">-->
+<!--              </div>-->
+<!--              <p class="post-category">Historical</p>-->
+<!--              <h2 class="title">-->
+<!--                <a href="https://www.lpth.gr/indexeg.php">White Tower of Thessaloniki</a>-->
+<!--              </h2>-->
 
-            </article>
-          </div><!-- End post list item -->
+<!--            </article>-->
+<!--          </div>&lt;!&ndash; End post list item &ndash;&gt;-->
 
-          <!-- Aristotelous Square -->
-          <div class="col-lg-4">
-            <article>
-              <div class="post-img">
-                <img src="https://th.bing.com/th/id/R.960b19de877a35de040f578f85cfc4c8?rik=3aT%2b%2fsyOgJ18WA&pid=ImgRaw&r=0" alt="Aristotelous Square" class="img-fluid">
-              </div>
-              <p class="post-category">Cultural</p>
-              <h2 class="title">
-                <a href="https://thessaloniki.gr/">Aristotelous Square</a>
-              </h2>
+<!--          &lt;!&ndash; Aristotelous Square &ndash;&gt;-->
+<!--          <div class="col-lg-4">-->
+<!--            <article>-->
+<!--              <div class="post-img">-->
+<!--                <img src="https://th.bing.com/th/id/R.960b19de877a35de040f578f85cfc4c8?rik=3aT%2b%2fsyOgJ18WA&pid=ImgRaw&r=0" alt="Aristotelous Square" class="img-fluid">-->
+<!--              </div>-->
+<!--              <p class="post-category">Cultural</p>-->
+<!--              <h2 class="title">-->
+<!--                <a href="https://thessaloniki.gr/">Aristotelous Square</a>-->
+<!--              </h2>-->
 
-            </article>
-          </div><!-- End post list item -->
+<!--            </article>-->
+<!--          </div>&lt;!&ndash; End post list item &ndash;&gt;-->
 
-          <!-- Mount Athos -->
-          <div class="col-lg-4">
-            <article>
-              <div class="post-img">
-                <img src="https://th.bing.com/th/id/OIP.cvLDEOptA7z6ODs8MuXdpwHaE2?rs=1&pid=ImgDetMain" alt="Mount Athos" class="img-fluid">
-              </div>
-              <p class="post-category">Spiritual</p>
-              <h2 class="title">
-                <a href="https://www.britannica.com/place/Mount-Athos">Mount Athos (Agion Oros)</a>
-              </h2>
+<!--          &lt;!&ndash; Mount Athos &ndash;&gt;-->
+<!--          <div class="col-lg-4">-->
+<!--            <article>-->
+<!--              <div class="post-img">-->
+<!--                <img src="https://th.bing.com/th/id/OIP.cvLDEOptA7z6ODs8MuXdpwHaE2?rs=1&pid=ImgDetMain" alt="Mount Athos" class="img-fluid">-->
+<!--              </div>-->
+<!--              <p class="post-category">Spiritual</p>-->
+<!--              <h2 class="title">-->
+<!--                <a href="https://www.britannica.com/place/Mount-Athos">Mount Athos (Agion Oros)</a>-->
+<!--              </h2>-->
 
-            </article>
-          </div><!-- End post list item -->
+<!--            </article>-->
+<!--          </div>&lt;!&ndash; End post list item &ndash;&gt;-->
 
-          <!-- Petralona Cave -->
-          <div class="col-lg-4">
-            <article>
-              <div class="post-img">
-                <img src="https://www.visit-halkidiki.gr/wp-content/uploads/2016/09/Petralona-cave-halkidiki-2.jpg" alt="Petralona Cave" class="img-fluid">
-              </div>
-              <p class="post-category">Natural</p>
-              <h2 class="title">
-                <a href="https://en.wikipedia.org/wiki/Petralona_Cave">Petralona Cave</a>
-              </h2>
+<!--          &lt;!&ndash; Petralona Cave &ndash;&gt;-->
+<!--          <div class="col-lg-4">-->
+<!--            <article>-->
+<!--              <div class="post-img">-->
+<!--                <img src="https://www.visit-halkidiki.gr/wp-content/uploads/2016/09/Petralona-cave-halkidiki-2.jpg" alt="Petralona Cave" class="img-fluid">-->
+<!--              </div>-->
+<!--              <p class="post-category">Natural</p>-->
+<!--              <h2 class="title">-->
+<!--                <a href="https://en.wikipedia.org/wiki/Petralona_Cave">Petralona Cave</a>-->
+<!--              </h2>-->
 
-            </article>
-          </div><!-- End post list item -->
+<!--            </article>-->
+<!--          </div>&lt;!&ndash; End post list item &ndash;&gt;-->
 
-          <!-- Peraia Beach -->
-          <div class="col-lg-4">
-            <article>
-              <div class="post-img">
-                <img src="https://th.bing.com/th/id/R.bf26b7ef2bab849fc7b7f2c5ffe6a3fe?rik=UZTEmUDJKym5Dg&pid=ImgRaw&r=0" alt="Peraia Beach" class="img-fluid">
-              </div>
-              <p class="post-category">Leisure</p>
-              <h2 class="title">
-                <a href="https://beachnearby.com/beach/peraia-thessaloniki">Peraia Beach</a>
-              </h2>
+<!--          &lt;!&ndash; Peraia Beach &ndash;&gt;-->
+<!--          <div class="col-lg-4">-->
+<!--            <article>-->
+<!--              <div class="post-img">-->
+<!--                <img src="https://th.bing.com/th/id/R.bf26b7ef2bab849fc7b7f2c5ffe6a3fe?rik=UZTEmUDJKym5Dg&pid=ImgRaw&r=0" alt="Peraia Beach" class="img-fluid">-->
+<!--              </div>-->
+<!--              <p class="post-category">Leisure</p>-->
+<!--              <h2 class="title">-->
+<!--                <a href="https://beachnearby.com/beach/peraia-thessaloniki">Peraia Beach</a>-->
+<!--              </h2>-->
 
-            </article>
-          </div><!-- End post list item -->
+<!--            </article>-->
+<!--          </div>&lt;!&ndash; End post list item &ndash;&gt;-->
 
-          <!-- Archaeological Museum of Thessaloniki -->
-          <div class="col-lg-4">
-            <article>
-              <div class="post-img">
-                <img src="https://th.bing.com/th/id/R.e516c719cf070350f33ccff9994c6696?rik=9h2zLjTGtkcGlA&pid=ImgRaw&r=0" alt="Archaeological Museum of Thessaloniki" class="img-fluid">
-              </div>
-              <p class="post-category">Historical</p>
-              <h2 class="title">
-                <a href="https://www.amth.gr/">Archaeological Museum of Thessaloniki</a>
-              </h2>
+<!--          &lt;!&ndash; Archaeological Museum of Thessaloniki &ndash;&gt;-->
+<!--          <div class="col-lg-4">-->
+<!--            <article>-->
+<!--              <div class="post-img">-->
+<!--                <img src="https://th.bing.com/th/id/R.e516c719cf070350f33ccff9994c6696?rik=9h2zLjTGtkcGlA&pid=ImgRaw&r=0" alt="Archaeological Museum of Thessaloniki" class="img-fluid">-->
+<!--              </div>-->
+<!--              <p class="post-category">Historical</p>-->
+<!--              <h2 class="title">-->
+<!--                <a href="https://www.amth.gr/">Archaeological Museum of Thessaloniki</a>-->
+<!--              </h2>-->
 
-            </article>
-          </div><!-- End post list item -->
+<!--            </article>-->
+<!--          </div>&lt;!&ndash; End post list item &ndash;&gt;-->
 
-        </div>
-      </div>
+<!--        </div>-->
+<!--      </div>-->
 
-    </section><!-- /Latest Posts Section -->
+<!--    </section>&lt;!&ndash; /Latest Posts Section &ndash;&gt;-->
 
 
-    <section id="call-to-action" class="call-to-action section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4 justify-content-between align-items-center">
-          <div class="col-lg-6">
-            <div class="cta-content" data-aos="fade-up" data-aos-delay="200">
-              <h2>Leave Us Your Phone Number</h2>
-              <p>Leave your phone number, and we will call you back as soon as possible.</p>
-              <form action="forms/callback.php" method="post" class="php-email-form cta-form" data-aos="fade-up" data-aos-delay="300">
-                <div class="input-group mb-3">
-                  <input type="tel" class="form-control" name="phone" placeholder="Your phone number..." aria-label="Phone number" required>
-                  <button class="btn btn-primary" type="submit">Request a Callback</button>
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your request has been sent. We will call you soon!</div>
-              </form>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="cta-image" data-aos="zoom-out" data-aos-delay="200">
-              <img src="assets/img/cta/cta-1.webp" alt="" class="img-fluid">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!--    <section id="call-to-action" class="call-to-action section">-->
+<!--      <div class="container" data-aos="fade-up" data-aos-delay="100">-->
+<!--        <div class="row gy-4 justify-content-between align-items-center">-->
+<!--          <div class="col-lg-6">-->
+<!--            <div class="cta-content" data-aos="fade-up" data-aos-delay="200">-->
+<!--              <h2>Leave Us Your Phone Number</h2>-->
+<!--              <p>Leave your phone number, and we will call you back as soon as possible.</p>-->
+<!--              <form action="forms/callback.php" method="post" class="php-email-form cta-form" data-aos="fade-up" data-aos-delay="300">-->
+<!--                <div class="input-group mb-3">-->
+<!--                  <input type="tel" class="form-control" name="phone" placeholder="Your phone number..." aria-label="Phone number" required>-->
+<!--                  <button class="btn btn-primary" type="submit">Request a Callback</button>-->
+<!--                </div>-->
+<!--                <div class="loading">Loading</div>-->
+<!--                <div class="error-message"></div>-->
+<!--                <div class="sent-message">Your request has been sent. We will call you soon!</div>-->
+<!--              </form>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-lg-4">-->
+<!--            <div class="cta-image" data-aos="zoom-out" data-aos-delay="200">-->
+<!--              <img src="assets/img/cta/cta-1.webp" alt="" class="img-fluid">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
 
   </main>
 

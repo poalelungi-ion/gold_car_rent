@@ -3604,3 +3604,8 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
