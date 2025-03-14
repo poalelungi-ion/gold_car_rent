@@ -249,7 +249,7 @@ h6 {
 
 .header .social-links a {
   color: var(--heading-color);
-  padding: 0 8px;
+  padding: 0 150px;
   display: inline-block;
   font-size: 18px;
   transition: 0.3s;
@@ -262,6 +262,13 @@ h6 {
 @media (max-width: 1200px) {
   .header .social-links {
     padding-right: 40px;
+  }
+  .header .social-links a {
+    color: var(--heading-color);
+    padding: 0 30px;
+    display: inline-block;
+    font-size: 18px;
+    transition: 0.3s;
   }
 }
 
